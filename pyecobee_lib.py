@@ -249,7 +249,7 @@ class Ecobee(object):
                     "selectionType": "thermostats",
                     "selectionMatch": self.thermostats[index]['identifier']},
                 "functions": [{"type": "setHold", "params": {
-                    "holyType": hold_type,
+                    "holdType": hold_type,
                     "coolHoldTemp": int(cool_temp * 10),
                     "heatHoldTemp": int(heat_temp * 10)
                 }}]}
